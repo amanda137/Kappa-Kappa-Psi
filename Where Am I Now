@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Where Am I</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          * {
+            box-sizing: border-box;
+           }
+          /* Create two equal columns that floats next to each other */
+          .column {
+            float: left;
+            width: 28%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+          }
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+	  }
+		
+          }
+          head {
+            background-color: #ffffff;
+            background-color: rgb(255, 255, 255);
+          }
+          body {
+            background-color: #2512e7;
+          }
+
+          /* space between codes. this is for horizontal tab bar*/
+       
+          body {margin:0;}
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2512e7;
+            top: 0;
+            width: 100%;
+          }
+          li {
+            float: left;
+            border-right:1px solid #ffffff;
+          }
+          li a {
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 56px;
+            text-decoration: none;
+          }
+
+         /* Change the link color on hover and when clicked on leep color to remain the same */
+
+         .active {
+            background-color: #2512e7;
+         }
+
+         li a:hover:not(.active) {
+            background-color: #2512e7;
+         }
+
+         li a:hover {
+            background-color: #2512e7;
+         }
+  	</style>
+    </head>  
+    <body>
+      <ul>
+       <li>
+        <a class="active" href="https://amanda137.github.io/Kappa-Kappa-Psi/home.html">
+         <font size="5">Home</font>
+        </a>
+       </li>
+       <li>
+        <a class="active" href="https://amanda137.github.io/Kappa-Kappa-Psi/How-it-Began.html">
+         <font size="5">How it Began</font>
+        </a>
+       </li>
+       <li>
+        <a class="active" href="https://amanda137.github.io/Kappa-Kappa-Psi/Formal-Events.html">
+         <font size="5">Formal Events</font>
+        </a>
+       </li>
+       <li>
+        <a class="active" href="https://amanda137.github.io/Kappa-Kappa-Psi/What-I-Have-Learned.html">
+         <font size="5">What I Have Learned</font>
+        </a>
+       </li>
+       <li>
+        <a class="active" href="https://amanda137.github.io/Kappa-Kappa-Psi/Who-We-Are.html">
+         <font size="5">Who We Are</font>
+        </a>
+       </li>
+       <li>
+        <a class="active" href="https://amanda137.github.io/Kappa-Kappa-Psi/Where-I-Am-Now.html">
+         <font size="5">Where Am I Now</font>
+        </a>
+       </li>
+      </ul>
